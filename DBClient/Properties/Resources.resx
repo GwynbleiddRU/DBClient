@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddClient" xml:space="preserve">
+    <value>Insert into Взаиморасчеты.dbo.Клиенты 
+Values (@client_name, @manager_id, @phone, @email); </value>
+    <comment>Добавляем клиента</comment>
+  </data>
+  <data name="AddExistingItem" xml:space="preserve">
+    <value>INSERT INTO Взаиморасчеты.dbo.Содержимое_склада
+      VALUES (@storage_id, @item_id, @item_amount);</value>
+    <comment>Добавляем на склад существующий предмет</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="addIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddNewItem" xml:space="preserve">
+    <value>INSERT INTO Взаиморасчеты.dbo.Товар
+      VALUES (@item_type, @item_material, @item_price);
+    
+    INSERT INTO Взаиморасчеты.dbo.Содержимое_склада
+      VALUES(@storage_id, (select ident_current('Взаиморасчеты.dbo.Товар')), @item_amount);</value>
+    <comment>Добавляем товар на существующий склад</comment>
+  </data>
+  <data name="AddPayment" xml:space="preserve">
+    <value>INSERT INTO Взаиморасчеты.dbo.Оплата
+  VALUES (@date, @client_id, @payment);
+
+  UPDATE Взаиморасчеты.dbo.Счет_клиента
+    SET Взаиморасчеты.dbo.Счет_клиента.client_balance = (Взаиморасчеты.dbo.Счет_клиента.client_balance + @payment)
+    WHERE Взаиморасчеты.dbo.Счет_клиента.client_id = @client_id;</value>
+    <comment>Операция оплаты</comment>
+  </data>
+  <data name="AddShipment" xml:space="preserve">
+    <value>INSERT INTO Взаиморасчеты.dbo.Отгрузка
+  VALUES (@date, @client_id, @storage_id, @item_id, @item_amount)
+
+  UPDATE Взаиморасчеты.dbo.Содержимое_склада
+    SET Взаиморасчеты.dbo.Содержимое_склада.item_amount = (Взаиморасчеты.dbo.Содержимое_склада.item_amount - @item_amount)
+    WHERE Взаиморасчеты.dbo.Содержимое_склада.item_id = @item_id AND Взаиморасчеты.dbo.Содержимое_склада.storage_id = @storage_id;
+
+  UPDATE Взаиморасчеты.dbo.Счет_клиента
+    SET Взаиморасчеты.dbo.Счет_клиента.client_balance = (Взаиморасчеты.dbo.Счет_клиента.client_balance - ((SELECT Взаиморасчеты.dbo.Товар.item_price 
+                                                                                                         FROM Взаиморасчеты.dbo.Товар
+                                                                                                         WHERE Взаиморасчеты.dbo.Товар.item_id = @item_id) * @item_amount))
+    WHERE Взаиморасчеты.dbo.Счет_клиента.client_id = @client_id;</value>
+    <comment>Операция отгрузки, вычитаем отгруженное количество со склада-источника отгрузки, вычитаем стоимость отгрузки из баланса клиента-заказчика</comment>
+  </data>
+  <data name="authorizationIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\authorizationIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChangeClientBalance" xml:space="preserve">
+    <value>update Счет_клиента set client_balance = @client_balance where client_id = @client_id</value>
+    <comment>Редактирование таблицы "Клиенты"</comment>
+  </data>
+  <data name="ChangeClientCredit" xml:space="preserve">
+    <value>update Счет_клиента set client_credit = @client_credit where client_id = @client_id</value>
+    <comment>Редактирование таблицы "Клиенты"</comment>
+  </data>
+  <data name="ChangeClientEmail" xml:space="preserve">
+    <value>update Клиенты set email = @email where client_id = @client_id</value>
+    <comment>Редактирование таблицы "Клиенты"</comment>
+  </data>
+  <data name="ChangeClientName" xml:space="preserve">
+    <value>update Клиенты set client_name = @client_name
+	where client_id = @client_id</value>
+    <comment>Редактирование таблицы "Клиенты"</comment>
+  </data>
+  <data name="ChangeClientPhone" xml:space="preserve">
+    <value>update Клиенты set phone = @phone 
+	where client_id = @client_id</value>
+    <comment>Редактирование таблицы "Клиенты"</comment>
+  </data>
+  <data name="ChangeFinanceDate" xml:space="preserve">
+    <value>update Оплата set date = @date where client_id = @client_id AND payment = @payment</value>
+    <comment>Редактирование таблицы "Финансы"</comment>
+  </data>
+  <data name="ChangeFinanceName" xml:space="preserve">
+    <value>update Клиенты set client_name = @client_name where client_id = @client_id</value>
+    <comment>Редактирование таблицы "Финансы"</comment>
+  </data>
+  <data name="ChangeFinancePayment" xml:space="preserve">
+    <value>update Оплата set payment = @payment where client_id = @client_id AND date = @date</value>
+    <comment>Редактирование таблицы "Финансы"</comment>
+  </data>
+  <data name="ChangeStorageCapacity" xml:space="preserve">
+    <value>update Склад set storage_capacity = @storage_capacity
+	where storage_id = @storage_id</value>
+  </data>
+  <data name="ChangeStorageItemAmount" xml:space="preserve">
+    <value>update Содержимое_склада set item_amount = @item_amount where storage_id = @storage_id</value>
+  </data>
+  <data name="ChangeStorageItemMaterialAndType" xml:space="preserve">
+    <value>UPDATE Взаиморасчеты.dbo.Содержимое_склада
+    SET Взаиморасчеты.dbo.Содержимое_склада.item_id = (SELECT Взаиморасчеты.dbo.Товар.item_id FROM Взаиморасчеты.dbo.Товар WHERE (Взаиморасчеты.dbo.Товар.item_type = @item_type AND Взаиморасчеты.dbo.Товар.item_material = @item_material))
+    WHERE Взаиморасчеты.dbo.Содержимое_склада.storage_id = @storage_id AND Взаиморасчеты.dbo.Содержимое_склада.item_amount = @item_amount;</value>
+  </data>
+  <data name="ChangeStorageName" xml:space="preserve">
+    <value>update Склад set storage_name = @storage_name
+	where storage_id = @storage_id</value>
+  </data>
+  <data name="CheckItemExists" xml:space="preserve">
+    <value>IF NOT EXISTS (SELECT Взаиморасчеты.dbo.Товар.item_type, Взаиморасчеты.dbo.Товар.item_material 
+           FROM Взаиморасчеты.dbo.Товар 
+           WHERE Взаиморасчеты.dbo.Товар.item_type = @item_type AND Взаиморасчеты.dbo.Товар.item_material = @item_material)
+BEGIN
+INSERT INTO Взаиморасчеты.dbo.Товар (item_type, item_material, item_price)
+  VALUES (@item_type, @item_material, @item_price);
+END</value>
+  </data>
+  <data name="CheckItemFitsStorage" xml:space="preserve">
+    <value>SELECT MAX(Взаиморасчеты.dbo.Склад.storage_capacity), COALESCE(SUM(item_amount), 0)
+  FROM Взаиморасчеты.dbo.Склад LEFT JOIN Взаиморасчеты.dbo.Содержимое_склада ON Взаиморасчеты.dbo.Склад.storage_id = Взаиморасчеты.dbo.Содержимое_склада.storage_id
+  WHERE Взаиморасчеты.dbo.Склад.storage_id = @storage_id</value>
+    <comment>Проверяем, помещается ли объем добавляемого товара на склад</comment>
+  </data>
+  <data name="closeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="darkCloseIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\darkCloseIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="darkMinimizeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\darkMinimizeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deleteIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deleteIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GetClientData" xml:space="preserve">
+    <value>SELECT Взаиморасчеты.dbo.Клиенты.client_name, Взаиморасчеты.dbo.Клиенты.phone, Взаиморасчеты.dbo.Клиенты.email, Взаиморасчеты.dbo.Счет_клиента.client_credit, Взаиморасчеты.dbo.Счет_клиента.client_balance, Взаиморасчеты.dbo.Клиенты.manager_id
+  FROM Взаиморасчеты.dbo.Клиенты LEFT JOIN Взаиморасчеты.dbo.Счет_клиента ON Взаиморасчеты.dbo.Клиенты.client_id = Взаиморасчеты.dbo.Счет_клиента.client_id
+  WHERE Клиенты.client_id = @client_id;</value>
+    <comment>Получаем данные о клиенте с client_id = @client_id</comment>
+  </data>
+  <data name="hamburgerMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamburgerMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\infoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logOutIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logOutIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimizeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimizeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="openIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="operationsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\operationsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="promekzAppLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\promekzAppLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="promekzLogoGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\promekzLogoGray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="queriesIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\queriesIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reduceIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reduceIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveClient" xml:space="preserve">
+    <value>DELETE FROM Взаиморасчеты.dbo.Клиенты WHERE client_id = @client_id</value>
+    <comment>Удаляем клиента (и все, что с ним связано - см триггер clearClientData)</comment>
+  </data>
+  <data name="RemoveItem" xml:space="preserve">
+    <value>DELETE FROM Взаиморасчеты.dbo.Содержимое_склада
+  WHERE Взаиморасчеты.dbo.Содержимое_склада.item_id = @item_id;
+
+DELETE FROM Взаиморасчеты.dbo.Товар
+  WHERE item_id = @item_id;</value>
+    <comment>Удаляем товар и все записи о нем на складах (см триггер DeleteItemData)</comment>
+  </data>
+  <data name="RemoveItemFromStorage" xml:space="preserve">
+    <value>DELETE FROM Взаиморасчеты.dbo.Содержимое_склада 
+  WHERE Взаиморасчеты.dbo.Содержимое_склада.storage_id = @storage_id AND Взаиморасчеты.dbo.Содержимое_склада.item_id = @item_id AND Взаиморасчеты.dbo.Содержимое_склада.item_amount = @item_amount</value>
+    <comment>Удаляем со склада выбранный предмет</comment>
+  </data>
+  <data name="RemoveStorage" xml:space="preserve">
+    <value>DELETE FROM Взаиморасчеты.dbo.Склад WHERE storage_id = @storage_id</value>
+    <comment>Удаляем склад и записи о его содержимом (каскадное удаление)</comment>
+  </data>
+  <data name="renameIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\renameIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rickAvatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rickAvatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="searchIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searchIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearchItem" xml:space="preserve">
+    <value>EXEC('SELECT COUNT(' + @column_name + ') FROM ' + @table_name + ' WHERE ' + @column_name + ' = ''' + @value + ''' AND ' + @column_name2 + ' = ''' + @value2 + '''')</value>
+    <comment>Ищем объект с идентичными значениями по 2 колонкам (товар.тип + товар.материал)</comment>
+  </data>
+  <data name="SearchObject" xml:space="preserve">
+    <value>EXEC('SELECT COUNT(' + @column_name + ') FROM ' + @table_name + ' WHERE ' + @column_name + ' = ''' + @value + '''')</value>
+    <comment>Ищем объект с тем же значением (для проверки существования объекта с тем же именем)</comment>
+  </data>
+  <data name="SetClientWallet" xml:space="preserve">
+    <value>UPDATE Взаиморасчеты.dbo.Счет_клиента
+  SET client_credit = @client_credit, client_balance = @client_balance
+  WHERE client_id = (SELECT client_id FROM Взаиморасчеты.dbo.Клиенты WHERE client_name = @client_name);</value>
+    <comment>Дополнение к запросу AddClient - регистрируем счет клиента</comment>
+  </data>
+  <data name="settingsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settingsButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimpleTable_Clients" xml:space="preserve">
+    <value>SELECT Взаиморасчеты.dbo.Клиенты.client_id AS 'ID', Взаиморасчеты.dbo.Клиенты.client_name AS 'Имя клиента', Взаиморасчеты.dbo.Клиенты.phone AS 'Телефон', Взаиморасчеты.dbo.Клиенты.email AS 'Эл. адрес', Взаиморасчеты.dbo.Счет_клиента.client_credit AS 'Кредит', Взаиморасчеты.dbo.Счет_клиента.client_balance AS 'Баланс'
+  FROM Взаиморасчеты.dbo.Клиенты LEFT JOIN Взаиморасчеты.dbo.Счет_клиента ON Взаиморасчеты.dbo.Клиенты.client_id = Взаиморасчеты.dbo.Счет_клиента.client_id;</value>
+    <comment>Вывод обобщенной таблицы "Клиенты" с полями [Имя клиента], [Телефон], [Email], [Кредит], [Баланс]</comment>
+  </data>
+  <data name="SimpleTable_Payment" xml:space="preserve">
+    <value>SELECT Взаиморасчеты.dbo.Клиенты.client_id AS 'ID', Взаиморасчеты.dbo.Оплата.date AS 'Дата', (SELECT Взаиморасчеты.dbo.Клиенты.client_name WHERE Взаиморасчеты.dbo.Клиенты.client_id = Взаиморасчеты.dbo.Оплата.client_id) AS 'Имя клиента', Взаиморасчеты.dbo.Оплата.payment AS 'Оплата', (SELECT ABS(Взаиморасчеты.dbo.Счет_клиента.client_balance + Взаиморасчеты.dbo.Счет_клиента.client_credit) FROM Взаиморасчеты.dbo.Счет_клиента WHERE Взаиморасчеты.dbo.Счет_клиента.client_id = Взаиморасчеты.dbo.Клиенты.client_id AND (Взаиморасчеты.dbo.Счет_клиента.client_balance + Взаиморасчеты.dbo.Счет_клиента.client_credit) &lt; 0) AS 'Долг' 
+  FROM Взаиморасчеты.dbo.Оплата LEFT JOIN Взаиморасчеты.dbo.Клиенты ON Взаиморасчеты.dbo.Оплата.client_id = Взаиморасчеты.dbo.Клиенты.client_id LEFT JOIN Взаиморасчеты.dbo.Счет_клиента ON Взаиморасчеты.dbo.Оплата.client_id = Взаиморасчеты.dbo.Счет_клиента.client_id;</value>
+    <comment>Вывод обобщенной таблицы "Оплата" с полями [Дата], [Имя клиента], [Сумма оплаты], [Долг]</comment>
+  </data>
+  <data name="SimpleTable_Storages" xml:space="preserve">
+    <value>SELECT Взаиморасчеты.dbo.Склад.storage_id AS 'ID', Взаиморасчеты.dbo.Склад.storage_name AS 'Адрес/Имя', Взаиморасчеты.dbo.Склад.storage_capacity AS 'Вместимость', Взаиморасчеты.dbo.Товар.item_type AS 'Тип товара', Взаиморасчеты.dbo.Товар.item_material AS 'Материал', Взаиморасчеты.dbo.Содержимое_склада.item_amount 'Количество', (SELECT  Взаиморасчеты.dbo.Товар.item_price* Взаиморасчеты.dbo.Содержимое_склада.item_amount) AS 'Сумма (руб)' FROM Взаиморасчеты.dbo.Склад LEFT JOIN Взаиморасчеты.dbo.Содержимое_склада ON Взаиморасчеты.dbo.Склад.storage_id = Взаиморасчеты.dbo.Содержимое_склада.storage_id LEFT JOIN Взаиморасчеты.dbo.Товар ON Взаиморасчеты.dbo.Содержимое_склада.item_id = Взаиморасчеты.dbo.Товар.item_id WHERE (Взаиморасчеты.dbo.Товар.item_material IS NOT NULL AND Взаиморасчеты.dbo.Товар.item_type IS NOT NULL AND Взаиморасчеты.dbo.Содержимое_склада.item_amount IS NOT NULL);</value>
+    <comment>Вывод обобщенной таблицы "Склады" с полями [Имя склада], [Вместимость], [Имя хранимого предмета], [Материал], [Количество], [Общая стоимость]</comment>
+  </data>
+  <data name="statsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rimshotdesign-Nod2-Clipping-Text.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClient" xml:space="preserve">
+    <value>UPDATE Взаиморасчеты.dbo.Клиенты 
+  SET Взаиморасчеты.dbo.Клиенты.client_name = @client_name, Взаиморасчеты.dbo.Клиенты.phone = @phone, Взаиморасчеты.dbo.Клиенты.email = @email, Взаиморасчеты.dbo.Клиенты.manager_id = @manager_id
+  WHERE Взаиморасчеты.dbo.Клиенты.client_id = @client_id;
+
+UPDATE Взаиморасчеты.dbo.Счет_клиента
+  SET Взаиморасчеты.dbo.Счет_клиента.client_credit = @client_credit, Взаиморасчеты.dbo.Счет_клиента.client_balance = @client_balance
+  WHERE Взаиморасчеты.dbo.Счет_клиента.client_id = @client_id;</value>
+    <comment>Изменить данные клиента (ModifyClient Form)</comment>
+  </data>
+  <data name="updateIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updateIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateItem" xml:space="preserve">
+    <value>UPDATE Взаиморасчеты.dbo.Товар
+  SET Взаиморасчеты.dbo.Товар.item_type = @item_type, Взаиморасчеты.dbo.Товар.item_material = @item_material, Взаиморасчеты.dbo.Товар.item_price = @item_price
+  WHERE Взаиморасчеты.dbo.Товар.item_id = @item_id;</value>
+    <comment>Изменить данные товара (ModifyClient Form)</comment>
+  </data>
+  <data name="UpdateStorage" xml:space="preserve">
+    <value>UPDATE Взаиморасчеты.dbo.Склад
+  SET Взаиморасчеты.dbo.Склад.storage_name = @storage_name, Взаиморасчеты.dbo.Склад.storage_capacity = @storage_capacity
+  WHERE Взаиморасчеты.dbo.Склад.storage_id = @storage_id</value>
+    <comment>Изменить данные склада</comment>
+  </data>
+  <data name="Z_Trigger_DeleteClientData (отключен, удаление происходит каскадно по связям - триггер не нужен)" xml:space="preserve">
+    <value>CREATE TRIGGER clearClientData ON Взаиморасчеты.dbo.Клиенты
+  AFTER DELETE
+  AS
+  BEGIN
+
+    DELETE FROM Взаиморасчеты.dbo.Счет_клиента WHERE client_id = (SELECT client_id FROM DELETED);
+    DELETE FROM Взаиморасчеты.dbo.Отгрузка WHERE client_id = (SELECT client_id FROM DELETED);
+    DELETE FROM Взаиморасчеты.dbo.Оплата WHERE client_id = (SELECT client_id FROM DELETED);
+
+  END</value>
+    <comment>Удаляем счет, оплаты и отгрузки клиента при удалении его самого</comment>
+  </data>
+  <data name="Z_Trigger_DeleteItemData" xml:space="preserve">
+    <value>CREATE TRIGGER removeItem ON Взаиморасчеты.dbo.Товар
+  AFTER DELETE
+  AS
+    BEGIN
+    DELETE FROM Взаиморасчеты.dbo.Содержимое_склада WHERE item_id = (SELECT item_id FROM DELETED)
+    END</value>
+    <comment>Удаляем записи о хранимом предмете на складах при удалении его самого</comment>
+  </data>
+  <data name="Z_Trigger_Wallet" xml:space="preserve">
+    <value>CREATE TRIGGER createWallet ON Взаиморасчеты.dbo.Клиенты
+    AFTER INSERT 
+    AS
+    BEGIN
+     declare @client_credit int;
+     declare @client_balance int;
+     SELECT @client_credit = 0;
+     SELECT @client_balance = 0;
+    	INSERT INTO Взаиморасчеты.dbo.Счет_клиента VALUES ((select ident_current('Взаиморасчеты.dbo.Клиенты')), @client_credit, @client_balance);
+    END</value>
+    <comment>Создаем счет для нового клиента после того, как он был добавлен</comment>
+  </data>
+</root>

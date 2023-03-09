@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="ReportDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>4fe86029-ca5f-42a5-94b0-36d38f01643e</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Shipment">
+      <Query>
+        <DataSourceName>ReportDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="shipment_id">
+          <DataField>shipment_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="date">
+          <DataField>date</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="client_id">
+          <DataField>client_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="storage_id">
+          <DataField>storage_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="item_id">
+          <DataField>item_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="item_amount">
+          <DataField>item_amount</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ReportDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\ReportDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Отгрузка</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>ОтгрузкаTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet_Payment">
+      <Query>
+        <DataSourceName>ReportDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="date">
+          <DataField>date</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="client_id">
+          <DataField>client_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="shipment_id">
+          <DataField>shipment_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="payment">
+          <DataField>payment</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ReportDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\ReportDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Оплата</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>ОплатаTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet_Clients">
+      <Query>
+        <DataSourceName>ReportDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="client_id">
+          <DataField>client_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="client_name">
+          <DataField>client_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="manager_id">
+          <DataField>manager_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="phone">
+          <DataField>phone</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="email">
+          <DataField>email</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ReportDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\ReportDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Клиенты</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>КлиентыTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet_Storage">
+      <Query>
+        <DataSourceName>ReportDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="storage_id">
+          <DataField>storage_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="storage_capacity">
+          <DataField>storage_capacity</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ReportDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\ReportDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Склад</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>СкладTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet_StorageContains">
+      <Query>
+        <DataSourceName>ReportDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="storage_id">
+          <DataField>storage_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="item_id">
+          <DataField>item_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="item_amount">
+          <DataField>item_amount</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ReportDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\ReportDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Содержимое_склада</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>Содержимое_складаTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet_ClientBalance">
+      <Query>
+        <DataSourceName>ReportDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="client_id">
+          <DataField>client_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="client_credit">
+          <DataField>client_credit</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="client_balance">
+          <DataField>client_balance</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ReportDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\ReportDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Счет_клиента</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>Счет_клиентаTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Image Name="appLogo">
+            <Source>Embedded</Source>
+            <Value>promekzLogoGray</Value>
+            <Sizing>FitProportional</Sizing>
+            <Top>0.49995cm</Top>
+            <Left>0.48189cm</Left>
+            <Height>1.5cm</Height>
+            <Width>1.25306cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
+          <Textbox Name="Textbox27">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>В отчете представлена общая сводка БД Взаиморасчеты</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox27</rd:DefaultName>
+            <Top>0.49995cm</Top>
+            <Left>2.19195cm</Left>
+            <Height>0.6cm</Height>
+            <Width>9.6743cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line1">
+            <Top>2.40523cm</Top>
+            <Left>0.48189cm</Left>
+            <Height>0cm</Height>
+            <Width>14.2475cm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Color>#252e3b</Color>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="ExecutionTime">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Globals!ExecutionTime</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>ExecutionTime</rd:DefaultName>
+            <Top>1.31134cm</Top>
+            <Left>7.46598cm</Left>
+            <Height>0.6cm</Height>
+            <Width>4.40028cm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="UserID">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=User!UserID</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>UserID</rd:DefaultName>
+            <Top>1.31134cm</Top>
+            <Left>2.19195cm</Left>
+            <Height>0.6cm</Height>
+            <Width>5.09764cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox28">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Отчет составлен пользователем: </Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Parameters!UserName.Value</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve"> </Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Отгрузка:</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Данные отгрузок собраны в период с </Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Min((Fields!date.Value),"DataSet_Shipment")</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> по </Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Max((Fields!date.Value),"DataSet_Shipment")</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Всего проведено </Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Count((Fields!shipment_id.Value), "DataSet_Shipment")</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> отгрузок</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Оплата</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Данные оплат собраны в период с </Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Min((Fields!date.Value),"DataSet_Payment")</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> по </Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Max((Fields!date.Value),"DataSet_Payment")</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Общая выручка составила </Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum((Fields!payment.Value), "DataSet_Payment")</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> рублей</Value>
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox27</rd:DefaultName>
+            <Top>2.9191cm</Top>
+            <Left>0.48189cm</Left>
+            <Height>4.49819cm</Height>
+            <Width>14.2475cm</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <Color>#252e3b</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>8.46638cm</Top>
+            <Left>0.48189cm</Left>
+            <Height>0.58237cm</Height>
+            <Width>14.2475cm</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>3.89583in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>21cm</PageWidth>
+        <LeftMargin>2cm</LeftMargin>
+        <RightMargin>2cm</RightMargin>
+        <TopMargin>2cm</TopMargin>
+        <BottomMargin>2cm</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="UserName">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>UserName</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <EmbeddedImages>
+    <EmbeddedImage Name="promekzLogoGray">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAAqMAAALRCAQAAADFfGIpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAGjWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMC0wMi0xMlQyMjo0ODoxMiswNTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjAtMDItMTRUMDY6MzQ6MjUrMDU6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjAtMDIt
+MTRUMDY6MzQ6MjUrMDU6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIxIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk2YTI3MzUzLTNlNDItMGM0OS05MTM1LWFjNTZjYWI3MGE3YiIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOmJhYjUyMWEzLWIwYmItNjA0My1iYzMyLTkwZmUxZTQyY2FlNiIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjFmZTlmOTNmLTBiYjYtNzE0NC1iNjNiLTIxMjNiMTZiZjc2ZSI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6MWZlOWY5M2YtMGJiNi03MTQ0LWI2M2ItMjEyM2IxNmJmNzZlIiBzdEV2dDp3aGVuPSIyMDIwLTAyLTEyVDIyOjQ4OjEyKzA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo5ZTBmYTMwYy1iNjNjLWMwNDUtOWZiMS0wMjQzZGI3ZGFlZWQiIHN0RXZ0OndoZW49IjIwMjAtMDItMTRUMDY6MzQ6MjUrMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlk
+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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>eff3e35f-858a-4f3c-8d56-8851e4ea95dd</rd:ReportID>
+</Report>

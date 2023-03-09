@@ -1,0 +1,210 @@
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.csproj.GenerateResource.cache
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.Properties.Resources.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\DBClient.exe.config
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\DBClient.exe
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\DBClient.pdb
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.csproj.CopyComplete
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.exe
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.pdb
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.SplashScreen.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\bin\Debug\DBClient.exe.config
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\bin\Debug\DBClient.exe
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\bin\Debug\DBClient.pdb
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.csprojAssemblyReference.cache
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.panelAuthorization.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.MainForm.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.panelOperations.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.Properties.Resources.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.panelQueries.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.panelSettings.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.SimpleOperations.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.SplashScreen.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.panelStats.resources
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.csproj.GenerateResource.cache
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.csproj.CopyComplete
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.exe
+C:\Users\Gwynbleidd\source\repos\DBClient_1\DBClient\obj\Debug\DBClient.pdb
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelAuthorization.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.MainForm.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelQueries.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelSettings.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperationsSimple.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelStats.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\EnvDTE.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\stdole.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.ReportForm.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\RdlCompile.cache
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\RdlCompile.compiled
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddClient.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.csprojAssemblyReference.cache
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddStorage.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddItem.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddPayment.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Core.Platform.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Core.Portable.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\DDay.iCal.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_RemoveClient.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_RemoveItem.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_RemoveStorage.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_ModifyClient.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_ModifyItem.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_ModifyStorage.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddShipment.resources
+C:\Users\Gwynbleidd\source\repos\DBClient\DBClient\obj\Debug\DBClient.info_QueryBuilder.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\DBClient.exe.config
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\DBClient.exe
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\DBClient.pdb
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Core.Platform.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Core.Portable.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\DDay.iCal.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\EnvDTE.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\stdole.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.csprojAssemblyReference.cache
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.info_QueryBuilder.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelAuthorization.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.MainForm.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddClient.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddItem.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddPayment.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddShipment.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_AddStorage.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_ModifyClient.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_ModifyItem.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_ModifyStorage.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_RemoveClient.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_RemoveItem.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperations_RemoveStorage.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.Properties.Resources.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelQueries.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelSettings.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelOperationsSimple.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.ReportForm.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.SplashScreen.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.panelStats.resources
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.csproj.GenerateResource.cache
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\RdlCompile.cache
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\RdlCompile.compiled
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.csproj.CopyComplete
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.exe
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.pdb
+C:\Users\Gwynbleidd\source\repos\Курсовые работы\2 курс\DBClient\DBClient\obj\Debug\DBClient.csproj.CoreCompileInputs.cache
