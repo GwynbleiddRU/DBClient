@@ -2,6 +2,8 @@
 
 DBClient is a powerful C# database management client designed specifically for PROMEKZ metallurgic factory. With DBClient, you can easily manage all goods sold, goods left on storages, and manage storages and available goods. You can also manage clients, calculate their bills and debts, and provide credits.
 
+[Workflow preview (youtube)](https://www.youtube.com/watch?v=VNeDhh1Ge9U "DBClient preview")
+
 ## Features
 
 📝 Fixation of all goods sold\
